@@ -17,9 +17,9 @@ function App() {
       <PrimaryHeader />
       <NavigationMenu />
       <HeroSection />
-      <ReferProcess />
-      <Benefits />
-      <FAQ />
+      <div id="refer"><ReferProcess /></div>
+      <div id="benefits"><Benefits /></div>
+      <div id="faq"><FAQ /></div>
       <GetInTouch />
       <Footer />
     </div>
